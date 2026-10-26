@@ -1,0 +1,10 @@
+Just Putz It public Manus-storage image export
+Source: https://justputzit.com/manus-storage/
+Private member uploads are intentionally excluded.
+
+icon-192_52214e91.png	8169 bytes	6d8a6fc4b419b851bec9b19c466a884690ce4a74774addc1085d58eecf8e7e73
+icon-512_c1858d5a.png	28926 bytes	1cbd1ca82d573583f7f6be10cc4b7f0bddd66913aa6336e963ede8a309db0765
+icon-maskable-512_1dae20ca.png	28926 bytes	1cbd1ca82d573583f7f6be10cc4b7f0bddd66913aa6336e963ede8a309db0765
+just-putzit-social-games-reference_afd73bb0.png	256582 bytes	c960cda9e00fd31c17f585f91257f798a5cff133ca11e619d8113c2bbd24288e
+justputzit-logo-transparent_2e545ffa.png	983661 bytes	cb110061358bf102fc2deade39bbb58bba632bb3b80fde5d10da67fb12588fab
+sally-advisor_4c4cea71.jpg	46168 bytes	1df6e81aa775ae2dbca149f204898b9826301111b48a42271210a345c65ffff1

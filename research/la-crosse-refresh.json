@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-09-16T03:08:12.953Z",
+  "inserted": 0,
+  "sources": [
+    {
+      "sourceKey": "la_crosse_library",
+      "sourceLabel": "La Crosse Public Library",
+      "city": "La Crosse",
+      "status": "healthy",
+      "eventsFound": 22
+    },
+    {
+      "sourceKey": "la_crosse_parks",
+      "sourceLabel": "City of La Crosse Parks & Recreation",
+      "city": "La Crosse",
+      "status": "healthy",
+      "eventsFound": 6
+    }
+  ],
+  "events": [
+    {
+      "title": "Little Movers Storytime",
+      "eventDate": "2026-09-16T09:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/little-movers-storytime-48107"
+    },
+    {
+      "title": "Family Storytime",
+      "eventDate": "2026-09-16T10:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/family-storytime-48120"
+    },
+    {
+      "title": "Baby Storytime",
+      "eventDate": "2026-09-16T12:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/baby-storytime-48133"
+    },
+    {
+      "title": "Chair Yoga",
+      "eventDate": "2026-09-17T10:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/chair-yoga-47998"
+    },
+    {
+      "title": "Petite Picassos",
+      "eventDate": "2026-09-17T10:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/petite-picassos-48147"
+    },
+    {
+      "title": "Job Fair",
+      "eventDate": "2026-09-17T11:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/job-fair-placeholder-lh-47037"
+    },
+    {
+      "title": "Adulting 101: College Admissions",
+      "eventDate": "2026-09-17T17:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/adulting-101-college-admissions-47918"
+    },
+    {
+      "title": "Fandom Friday: Pokémon Club",
+      "eventDate": "2026-09-18T15:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/fandom-friday-pokemon-club-48167"
+    },
+    {
+      "title": "The Music of Tom Pease",
+      "eventDate": "2026-09-19T10:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/music-tom-pease-48189"
+    },
+    {
+      "title": "Repair Cafe",
+      "eventDate": "2026-09-19T10:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/repair-cafe-placeholder-46591"
+    },
+    {
+      "title": "CREATE Sunday Special",
+      "eventDate": "2026-09-20T15:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/create-sunday-special-48178"
+    },
+    {
+      "title": "Chair Fitness",
+      "eventDate": "2026-09-21T09:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/chair-fitness-48013"
+    },
+    {
+      "title": "Friends Monday Book Sale",
+      "eventDate": "2026-09-21T09:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/friends-monday-book-sale-44966"
+    },
+    {
+      "title": "Monday Mornings at Main",
+      "eventDate": "2026-09-21T10:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/monday-mornings-main-45114"
+    },
+    {
+      "title": "Maker Monday",
+      "eventDate": "2026-09-21T15:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/maker-monday-48156"
+    },
+    {
+      "title": "Game Lab: Board Game Design",
+      "eventDate": "2026-09-21T18:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/game-lab-board-game-design-48267"
+    },
+    {
+      "title": "Community Blood Drive",
+      "eventDate": "2026-09-22T11:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/community-blood-drive-46806"
+    },
+    {
+      "title": "Little Movers Storytime",
+      "eventDate": "2026-09-23T09:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/little-movers-storytime-48108"
+    },
+    {
+      "title": "Family Storytime",
+      "eventDate": "2026-09-23T10:30:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/family-storytime-48121"
+    },
+    {
+      "title": "Baby Storytime",
+      "eventDate": "2026-09-23T12:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/baby-storytime-48134"
+    },
+    {
+      "title": "Chair Yoga",
+      "eventDate": "2026-09-24T10:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/chair-yoga-47999"
+    },
+    {
+      "title": "Petite Picassos",
+      "eventDate": "2026-09-24T10:00:00.000Z",
+      "venueName": "Main Library",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "La Crosse Public Library",
+      "sourceUrl": "https://www.lacrosselibrary.org/event/petite-picassos-48148"
+    },
+    {
+      "title": "Wise Wednesdays",
+      "eventDate": "2026-09-16T15:30:00.000Z",
+      "venueName": "City of La Crosse Parks & Recreation",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "City of La Crosse Parks & Recreation",
+      "sourceUrl": "https://www.cityoflacrosse.org/City-Events/Park-and-Rec-Events/Wise-Wednesdays"
+    },
+    {
+      "title": "Qigong/Tai Chi",
+      "eventDate": "2026-09-16T23:30:00.000Z",
+      "venueName": "Black River Beach Neighborhood Center",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "City of La Crosse Parks & Recreation",
+      "sourceUrl": "https://www.cityoflacrosse.org/City-Events/Park-and-Rec-Events/QigongTai-Chi"
+    },
+    {
+      "title": "Staying Active Together",
+      "eventDate": "2026-09-17T14:30:00.000Z",
+      "venueName": "Black River Beach Neighborhood Center",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "City of La Crosse Parks & Recreation",
+      "sourceUrl": "https://www.cityoflacrosse.org/City-Events/Park-and-Rec-Events/Staying-Active-Together"
+    },
+    {
+      "title": "Music Café",
+      "eventDate": "2026-09-17T18:00:00.000Z",
+      "venueName": "South Side Neighborhood Center",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "City of La Crosse Parks & Recreation",
+      "sourceUrl": "https://www.cityoflacrosse.org/City-Events/Park-and-Rec-Events/Music-Café"
+    },
+    {
+      "title": "2026 La Crosse Parks Fishing Tournaments",
+      "eventDate": "2026-09-18T05:00:00.000Z",
+      "venueName": "City of La Crosse Parks & Recreation",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "City of La Crosse Parks & Recreation",
+      "sourceUrl": "https://www.cityoflacrosse.org/City-Events/Park-and-Rec-Events/2026-La-Crosse-Parks-Fishing-Tournaments"
+    },
+    {
+      "title": "Coping Skills",
+      "eventDate": "2026-09-18T15:00:00.000Z",
+      "venueName": "South Side Neighborhood Center",
+      "venueCity": "La Crosse, WI",
+      "sourceName": "City of La Crosse Parks & Recreation",
+      "sourceUrl": "https://www.cityoflacrosse.org/City-Events/Park-and-Rec-Events/Coping-Skills"
+    }
+  ]
+}

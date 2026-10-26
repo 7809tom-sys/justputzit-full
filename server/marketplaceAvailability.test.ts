@@ -1,0 +1,60 @@
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import { describe, expect, it } from "vitest";
+
+describe("Marketplace availability recovery", () => {
+  const marketplace = readFileSync(resolve(__dirname, "../client/src/pages/Marketplace.tsx"), "utf8");
+  const db = readFileSync(resolve(__dirname, "./db.ts"), "utf8");
+  const router = readFileSync(resolve(__dirname, "./routers.ts"), "utf8");
+
+  it("exposes only active Marketplace category counts through the established protected router", () => {
+    expect(db).toContain("getActivityMarketplaceCategoryCounts");
+    expect(db).toContain("new Set<string>()");
+    expect(db).toContain("row.title.trim().toLowerCase()");
+    expect(router).toContain("categoryCounts: publicProcedure");
+  });
+
+  it("allows visitors to browse while retaining sign-in handoff for booking", () => {
+    expect(router).toContain("browse: publicProcedure");
+    expect(marketplace).toContain("Join free to book this local activity.");
+    expect(marketplace).toContain("Join free to book");
+  });
+
+  it("uses the signed-in member city without silently switching them to another market", () => {
+    expect(router).toContain("city: z.string().trim().min(1).max(120).optional()");
+    expect(router).toContain("getActivityListings(input.city, input.category)");
+    expect(marketplace).toContain("Showing bookable activities in ${locationLabel}.");
+    expect(marketplace).toContain("Browse all locations instead");
+  });
+
+  it("uses the same explicit location input for category availability as the listings query", () => {
+    expect(db).toContain("getActivityMarketplaceCategoryCounts(city?: string)");
+    expect(router).toContain("getActivityMarketplaceCategoryCounts(input.city)");
+    expect(marketplace).toContain("marketplaceLocationInput");
+    expect(marketplace).toContain("categoryCounts.useQuery(marketplaceLocationInput)");
+  });
+
+  it("lets visitors choose and clear an explicit city filter without reading a private profile location", () => {
+    expect(marketplace).toContain("visitorCityDraft");
+    expect(marketplace).toContain("Search active activities by city");
+    expect(marketplace).toContain("Show this city");
+    expect(marketplace).toContain("All locations");
+    expect(marketplace).toContain("isAuthenticated\n    ? (browseAllLocations ? undefined : memberCity)\n    : visitorCity");
+  });
+
+  it("recovers from a stale empty category and explains retry and nearby-activity options", () => {
+    expect(marketplace).toContain("availableCategories");
+    expect(marketplace).toContain('setCategory("all")');
+    expect(marketplace).toContain("We couldn’t load Marketplace activities");
+    expect(marketplace).toContain("Explore nearby activities");
+  });
+
+  it("progressively reveals Marketplace cards and resets the result window when the city or category changes", () => {
+    expect(marketplace).toContain("const INITIAL_VISIBLE_RESULTS = 12");
+    expect(marketplace).toContain("setVisibleResults(INITIAL_VISIBLE_RESULTS)");
+    expect(marketplace).toContain("}, [activeCity, category]);");
+    expect(marketplace).toContain("const visibleListings = orderedListings.slice(0, visibleResults)");
+    expect(marketplace).toContain("Showing {visibleListings.length} of {orderedListings.length} available activities");
+    expect(marketplace).toContain("Show {Math.min(INITIAL_VISIBLE_RESULTS, remainingListings)} more activities");
+  });
+});
