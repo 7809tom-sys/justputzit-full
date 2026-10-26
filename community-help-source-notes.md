@@ -1,0 +1,11 @@
+# Waukesha Community Help Source Evidence
+
+**Reviewed 2026-09-23/24 UTC.** The Community Help directory uses only public organization-level information: organization name, public street address, broad public-service summary, and a direct official website or public-access page. It intentionally excludes staff names, email addresses, intake/contact details, client information, donor information, and member records.
+
+| Organization | Official website and public access | Public address | Public service summary | Official events eligibility |
+|---|---|---|---|---|
+| James Place Waukesha | [Waukesha public page](https://jamesplacewi.org/waukesha/) · [official events](https://jamesplacewi.org/events/) | 129 W. Broadway, Waukesha, WI 53186 | Community resources and behavioral-health services; the organization describes support for basic needs, job/computer assistance, and community connection. | **Eligible.** The public events index exposes dated Waukesha listings, direct official details, and calendar exports. |
+| The Salvation Army – Waukesha Corps Community Center | [Official Waukesha page](https://www.salvationarmyusa.org/wi/waukesha/) · [public access page](https://www.salvationarmyusa.org/wi/waukesha/madison-street-corps/contact-us/) | 445 Madison Street, Waukesha, WI 53188 | Public page identifies broad services including community meals, family services, food pantry, Pathway of Hope, and men’s emergency shelter. | **Not enrolled.** The official stories page is an archive, not a reliably maintained future-event calendar. |
+| Hope Center WI | [Official programs](https://hopecenterwi.org/programs/) · [official events](https://hopecenterwi.org/events/) | 101 W. Broadway, Waukesha, WI 53186 | Basic-needs support including clothing, community meals, day-center access, garden, financial/vital-documents assistance, and shower/laundry access. | **Eligible.** The official calendar shows dated events with direct detail links and calendar export. |
+
+Any dynamic nearby result in the product is clearly labeled as a Google Maps discovery result rather than a verified provider claim. Members are directed to the organization’s official page to confirm current access, eligibility, hours, and availability.
